@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mooli&display=swap');
+
+:root{
+    --color1: #DB75C6;
+    --color2: #E1ADD6;
+}
+
+body{
+    font-family: 'Mooli', sans-serif;
+    background-color: var(--color2);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--color1);
+    border: 10px solid var(--color1);
+    border-radius: 10px;
+}
+
+.meio{
+    text-align: center;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+button, input, label, p{
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.dance{
+    text-align: center;
+}
